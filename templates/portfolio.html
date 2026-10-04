@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Портфоліо{% endblock %}
+
+{% block content %}
+<h2>Мої проекти</h2>
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Проект 1: Flask App</h5>
+                <p class="card-text">Перший багатосторінковий сайт на Flask з використанням Jinja2 шаблонів та Bootstrap.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Проект 2: Git & GitHub</h5>
+                <p class="card-text">Робота з гілками в Git, розгортання проекту та ведення репозиторію.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
