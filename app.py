@@ -3,12 +3,12 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
-def home():
-    return render_template('index.html')
+def resume():
+    return render_template('resume.html', title="Резюме — Андрій Дашковський")
 
-@app.route('/portfolio')
-def portfolio():
-    return render_template('portfolio.html')
+@app.route('/contacts')
+def contacts():
+    return render_template('contacts.html', title="Контакти — Зв'язок зі мною")
 
 if __name__ == '__main__':
     app.run(debug=True)

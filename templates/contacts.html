@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="mb-4">Контакти</h1>
+
+<div class="row">
+    <div class="col-md-5 mb-4">
+        <div class="card p-4 shadow-sm h-100">
+            <h3>Зв'язатися зі мною</h3>
+            <p class="text-muted">Мої контактні дані:</p>
+            <ul class="list-unstyled mt-3">
+                <li class="mb-3"><strong>Телефон:</strong> +380 99 545 87 24</li>
+                <li class="mb-3"><strong>Email:</strong> andriidashkovskyi24@pnu.edu.ua</li>
+                <li class="mb-3"><strong>GitHub:</strong> <a href="https://github.com/andriidashkovskyi24" target="_blank">github.com/andriidashkovskyi24</a></li>
+                <li class="mb-3"><strong>Локація:</strong> Україна</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-7">
+        <div class="card p-4 shadow-sm">
+            <h3>Надіслати повідомлення</h3>
+            <form action="#" method="post" onsubmit="event.preventDefault(); alert('Повідомлення надіслано!');">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Ваше ім'я</label>
+                    <input type="text" class="form-control" id="name" placeholder="Введіть ім'я" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Ваш Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Повідомлення</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Ваше повідомлення..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Надіслати</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
