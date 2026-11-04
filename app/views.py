@@ -10,3 +10,12 @@ def home():
     """View for the Home page of your website."""
     agent = request.user_agent
     return render_template("index.html", agent=agent)
+
+# Додаємо маршрут для резюме
+@app.route('/resume')
+def resume():
+    return render_template("resume.html")
+
+@app.route('/contacts')
+def contacts():
+    return render_template("contacts.html")
