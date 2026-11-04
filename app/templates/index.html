@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Головна сторінка{% endblock %}
+
+{% block content %}
+    <h2>Вітаємо у Flask Application!</h2>
+    <p>Це головна сторінка лабораторної роботи №3 (Модульна структура та Blueprints).</p>
+    {% if agent %}
+        <p><strong>Ваш браузер/агент:</strong> {{ agent }}</p>
+    {% endif %}
+{% endblock %}

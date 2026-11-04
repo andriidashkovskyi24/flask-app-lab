@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ product.name }}{% endblock %}
+
+{% block content %}
+{% if product %}
+    <h2>{{ product.name }}</h2>
+    <p><strong>Ціна:</strong> {{ product.price }} $</p>
+    <p><strong>Опис:</strong> {{ product.content }}</p>
+    <br>
+    <a href="{{ url_for('products.all_products') }}">← Повернутися до списку товарів</a>
+{% else %}
+    <h2>Товар не знайдено</h2>
+{% endif %}
+{% endblock %}

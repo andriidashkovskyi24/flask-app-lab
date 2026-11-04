@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Список товарів{% endblock %}
+
+{% block content %}
+<h2>Каталог товарів</h2>
+<ul>
+    {% for product in products %}
+        <li>
+            <!-- Використовуємо url_for з назвою блюпринта та посиланням на функцію product_detail -->
+            <a href="{{ url_for('products.product_detail', product_id=product.id) }}">
+                <strong>{{ product.name }}</strong>
+            </a> — {{ product.price }} $
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}

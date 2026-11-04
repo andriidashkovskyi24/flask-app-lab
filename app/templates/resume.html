@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row align-items-center mb-4">
+    <div class="col-md-4 text-center mb-3">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Аватар бобра" class="img-fluid rounded-circle avatar-img shadow">
+    </div>
+    <div class="col-md-8">
+        <h1 class="display-4 fw-bold">Андрій Дашковський</h1>
+        <p class="lead text-primary fw-semibold">Студент</p>
+    </div>
+</div>
+
+<hr class="my-4">
+
+<section class="mb-4">
+    <h2 class="h3 border-bottom pb-2">Про себе</h2>
+    <p>Студент університету, навчаюся за спеціальністю інженерії програмного забезпечення. Займаюся розробкою веб-додатків на Python та Flask.</p>
+</section>
+
+<section class="mb-4">
+    <h2 class="h3 border-bottom pb-2">Освіта</h2>
+    <p><strong>Карпатський націонльний університет імені Василя Стефаника</strong> — Інженерія програмного забезпечення (2024 – н.ч.)</p>
+</section>
+
+<section class="mb-4">
+    <h2 class="h3 border-bottom pb-2">Навички</h2>
+    <ul>
+        <li><strong>Java:</strong> Обробка даних та написання алгоритмів на Java.</li>
+        <li><strong>JavaScript:</strong> Створення динамічних елементів для веб-сторінок.</li>
+        <li><strong>Web-дизайн:</strong> Проектування сучасних сайтів та інтерфейсів.</li>
+    </ul>
+</section>
+
+<section class="mb-4">
+    <h2 class="h3 border-bottom pb-2">Технології</h2>
+    <div class="d-flex gap-2 flex-wrap">
+        <span class="badge bg-primary fs-6">Java</span>
+        <span class="badge bg-warning text-dark fs-6">JavaScript</span>
+        <span class="badge bg-dark fs-6">Python</span>
+    </div>
+</section>
+
+<section class="mb-4">
+    <h2 class="h3 border-bottom pb-2">Проекти</h2>
+    <div class="card mb-3 shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">Веб-сайт на Flask</h5>
+            <p class="card-text">Створення навчального багатосторінкового сайту на Python з використанням Flask, шаблонів Jinja2 та верстки на Bootstrap.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

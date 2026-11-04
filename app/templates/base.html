@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Flask App{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Flask Application</h1>
+        <nav>
+            <a href="{{ url_for('main') }}">Головна</a> |
+            <a href="{{ url_for('users.greetings', name='Guest') }}">Users (Hi)</a> |
+            <a href="{{ url_for('products.all_products') }}">Products</a>
+        </nav>
+    </header>
+    <hr>
+    
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
