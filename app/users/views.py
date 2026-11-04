@@ -15,6 +15,6 @@ def greetings(name):
 
 @user_bp.route("/admin")
 def admin():
-    to_url = url_for("users.greetings", name="administrator", age=45, _external=True)
+    to_url = url_for("users.greetings", name="administrator", age=25, _external=True)
     print(to_url)
     return redirect(to_url)
