@@ -13,6 +13,10 @@
                 <strong>{{ product.name }}</strong>
             </a> — {{ product.price }} ₴
         </li>
+        
     {% endfor %}
 </ul>
+<div class="mb-3">
+    <a href="{{ url_for('products.product_add') }}" class="btn btn-primary">+ Додати новий товар</a>
+</div>
 {% endblock %}

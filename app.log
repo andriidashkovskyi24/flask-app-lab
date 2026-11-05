@@ -501,3 +501,126 @@
 2026-11-05 21:23:25,324 - INFO - 127.0.0.1 - - [05/Nov/2026 21:23:25] "GET /static/uploads/fc98da2a3adc4f2fa70ddd8a34182457_rich1_1_71901.jpg HTTP/1.1" 304 -
 2026-11-05 21:23:30,897 - INFO - 127.0.0.1 - - [05/Nov/2026 21:23:30] "GET /products/ HTTP/1.1" 200 -
 2026-11-05 21:23:30,914 - INFO - 127.0.0.1 - - [05/Nov/2026 21:23:30] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:41:26,214 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-05 21:41:26,214 - INFO - Press CTRL+C to quit
+2026-11-05 21:41:26,214 - INFO -  * Restarting with stat
+2026-11-05 21:41:26,446 - WARNING -  * Debugger is active!
+2026-11-05 21:41:26,448 - INFO -  * Debugger PIN: 113-176-569
+2026-11-05 21:41:55,598 - INFO - 127.0.0.1 - - [05/Nov/2026 21:41:55] "GET / HTTP/1.1" 200 -
+2026-11-05 21:41:55,631 - INFO - 127.0.0.1 - - [05/Nov/2026 21:41:55] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:41:55,792 - INFO - 127.0.0.1 - - [05/Nov/2026 21:41:55] "GET /favicon.ico HTTP/1.1" 404 -
+2026-11-05 21:42:00,358 - INFO - 127.0.0.1 - - [05/Nov/2026 21:42:00] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:42:00,378 - INFO - 127.0.0.1 - - [05/Nov/2026 21:42:00] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:42:32,333 - INFO - 127.0.0.1 - - [05/Nov/2026 21:42:32] "GET /products/1 HTTP/1.1" 200 -
+2026-11-05 21:42:32,351 - INFO - 127.0.0.1 - - [05/Nov/2026 21:42:32] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:42:32,398 - INFO - 127.0.0.1 - - [05/Nov/2026 21:42:32] "GET /static/uploads/90c9638114c049bc81c620dd5966a8cd_lenovo-ideapad-slim-5-16irl8-82xf002dus-295585.jpg HTTP/1.1" 200 -
+2026-11-05 21:42:33,614 - INFO - 127.0.0.1 - - [05/Nov/2026 21:42:33] "GET /products/edit/1 HTTP/1.1" 200 -
+2026-11-05 21:42:33,632 - INFO - 127.0.0.1 - - [05/Nov/2026 21:42:33] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:42:33,634 - INFO - 127.0.0.1 - - [05/Nov/2026 21:42:33] "GET /static/uploads/90c9638114c049bc81c620dd5966a8cd_lenovo-ideapad-slim-5-16irl8-82xf002dus-295585.jpg HTTP/1.1" 304 -
+2026-11-05 21:45:29,622 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-05 21:45:29,622 - INFO - Press CTRL+C to quit
+2026-11-05 21:45:29,623 - INFO -  * Restarting with stat
+2026-11-05 21:45:29,887 - WARNING -  * Debugger is active!
+2026-11-05 21:45:29,889 - INFO -  * Debugger PIN: 113-176-569
+2026-11-05 21:45:32,373 - INFO - 127.0.0.1 - - [05/Nov/2026 21:45:32] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:45:32,395 - INFO - 127.0.0.1 - - [05/Nov/2026 21:45:32] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:45:33,841 - INFO - 127.0.0.1 - - [05/Nov/2026 21:45:33] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:45:33,860 - INFO - 127.0.0.1 - - [05/Nov/2026 21:45:33] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:45:38,837 - INFO - 127.0.0.1 - - [05/Nov/2026 21:45:38] "GET /products/1 HTTP/1.1" 200 -
+2026-11-05 21:45:38,855 - INFO - 127.0.0.1 - - [05/Nov/2026 21:45:38] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:45:38,938 - INFO - 127.0.0.1 - - [05/Nov/2026 21:45:38] "GET /static/uploads/90c9638114c049bc81c620dd5966a8cd_lenovo-ideapad-slim-5-16irl8-82xf002dus-295585.jpg HTTP/1.1" 304 -
+2026-11-05 21:45:40,457 - INFO - 127.0.0.1 - - [05/Nov/2026 21:45:40] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:45:40,474 - INFO - 127.0.0.1 - - [05/Nov/2026 21:45:40] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:47:04,370 - INFO - 127.0.0.1 - - [05/Nov/2026 21:47:04] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:47:04,390 - INFO - 127.0.0.1 - - [05/Nov/2026 21:47:04] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:47:05,122 - INFO - 127.0.0.1 - - [05/Nov/2026 21:47:05] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:47:05,141 - INFO - 127.0.0.1 - - [05/Nov/2026 21:47:05] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:50:08,300 - INFO -  * Detected change in 'D:\\flask_app_Dashkovskiy\\app\\products\\views.py', reloading
+2026-11-05 21:50:08,355 - INFO -  * Restarting with stat
+2026-11-05 21:56:30,099 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-05 21:56:30,099 - INFO - Press CTRL+C to quit
+2026-11-05 21:56:30,100 - INFO -  * Restarting with stat
+2026-11-05 21:56:30,346 - WARNING -  * Debugger is active!
+2026-11-05 21:56:30,349 - INFO -  * Debugger PIN: 113-176-569
+2026-11-05 21:56:33,236 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:33] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:56:33,260 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:33] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:34,461 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:34] "GET /products/1 HTTP/1.1" 200 -
+2026-11-05 21:56:34,481 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:34] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:34,531 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:34] "GET /static/uploads/90c9638114c049bc81c620dd5966a8cd_lenovo-ideapad-slim-5-16irl8-82xf002dus-295585.jpg HTTP/1.1" 304 -
+2026-11-05 21:56:36,096 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:36] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:56:36,111 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:36] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:37,009 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:37] "GET /products/2 HTTP/1.1" 200 -
+2026-11-05 21:56:37,026 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:37] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:37,031 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:37] "GET /static/uploads/ad5ea597442046979bbc32e7dbdcb059_487790448.webp HTTP/1.1" 304 -
+2026-11-05 21:56:37,752 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:37] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:56:37,773 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:37] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:40,367 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:40] "GET /products/3 HTTP/1.1" 200 -
+2026-11-05 21:56:40,384 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:40] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:40,388 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:40] "GET /static/uploads/fc98da2a3adc4f2fa70ddd8a34182457_rich1_1_71901.jpg HTTP/1.1" 304 -
+2026-11-05 21:56:41,557 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:41] "GET /products/edit/3 HTTP/1.1" 200 -
+2026-11-05 21:56:41,576 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:41] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:41,579 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:41] "GET /static/uploads/fc98da2a3adc4f2fa70ddd8a34182457_rich1_1_71901.jpg HTTP/1.1" 304 -
+2026-11-05 21:56:44,159 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:44] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:56:44,179 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:44] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:45,326 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:45] "GET /products/3 HTTP/1.1" 200 -
+2026-11-05 21:56:45,349 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:45] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:45,351 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:45] "GET /static/uploads/fc98da2a3adc4f2fa70ddd8a34182457_rich1_1_71901.jpg HTTP/1.1" 304 -
+2026-11-05 21:56:46,672 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:46] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:56:46,693 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:46] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:56:58,532 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:58] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:56:58,576 - INFO - 127.0.0.1 - - [05/Nov/2026 21:56:58] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:58:12,292 - INFO -  * Detected change in 'D:\\flask_app_Dashkovskiy\\app\\products\\views.py', reloading
+2026-11-05 21:58:12,344 - INFO -  * Restarting with stat
+2026-11-05 21:58:12,583 - WARNING -  * Debugger is active!
+2026-11-05 21:58:12,585 - INFO -  * Debugger PIN: 113-176-569
+2026-11-05 21:58:16,214 - INFO - 127.0.0.1 - - [05/Nov/2026 21:58:16] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:58:16,235 - INFO - 127.0.0.1 - - [05/Nov/2026 21:58:16] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:58:17,380 - INFO - 127.0.0.1 - - [05/Nov/2026 21:58:17] "GET /products/1 HTTP/1.1" 200 -
+2026-11-05 21:58:17,396 - INFO - 127.0.0.1 - - [05/Nov/2026 21:58:17] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:58:17,442 - INFO - 127.0.0.1 - - [05/Nov/2026 21:58:17] "GET /static/uploads/90c9638114c049bc81c620dd5966a8cd_lenovo-ideapad-slim-5-16irl8-82xf002dus-295585.jpg HTTP/1.1" 304 -
+2026-11-05 21:58:19,071 - INFO - 127.0.0.1 - - [05/Nov/2026 21:58:19] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:58:19,090 - INFO - 127.0.0.1 - - [05/Nov/2026 21:58:19] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:58:48,287 - INFO - 127.0.0.1 - - [05/Nov/2026 21:58:48] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:58:48,308 - INFO - 127.0.0.1 - - [05/Nov/2026 21:58:48] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:59:17,548 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:17] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 21:59:17,567 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:17] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:59:19,124 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:19] "GET /products/add HTTP/1.1" 500 -
+2026-11-05 21:59:19,142 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:19] "GET /products/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-11-05 21:59:19,143 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:19] "GET /products/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-11-05 21:59:19,152 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:19] "GET /products/add?__debugger__=yes&cmd=resource&f=console.png&s=lclBb4IdZREJCwTPYvdj HTTP/1.1" 200 -
+2026-11-05 21:59:19,193 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:19] "GET /products/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-11-05 21:59:53,060 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:53] "GET /products/add HTTP/1.1" 200 -
+2026-11-05 21:59:53,081 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:53] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 21:59:57,006 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:57] "POST /products/add HTTP/1.1" 200 -
+2026-11-05 21:59:57,033 - INFO - 127.0.0.1 - - [05/Nov/2026 21:59:57] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:01:27,966 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:27] "POST /products/add HTTP/1.1" 302 -
+2026-11-05 22:01:27,971 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:27] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 22:01:27,998 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:27] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:01:29,574 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:29] "GET /products/4 HTTP/1.1" 200 -
+2026-11-05 22:01:29,594 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:29] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:01:29,596 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:29] "GET /static/uploads/89e8ff1dda994a6c9428109dc0968936_1712927605-opt.webp HTTP/1.1" 200 -
+2026-11-05 22:01:35,255 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:35] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 22:01:35,272 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:35] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:01:58,192 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:58] "GET /products/1 HTTP/1.1" 200 -
+2026-11-05 22:01:58,209 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:58] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:01:58,214 - INFO - 127.0.0.1 - - [05/Nov/2026 22:01:58] "GET /static/uploads/90c9638114c049bc81c620dd5966a8cd_lenovo-ideapad-slim-5-16irl8-82xf002dus-295585.jpg HTTP/1.1" 304 -
+2026-11-05 22:02:01,911 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:01] "GET /products/edit/1 HTTP/1.1" 200 -
+2026-11-05 22:02:01,931 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:01] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:02:01,933 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:01] "GET /static/uploads/90c9638114c049bc81c620dd5966a8cd_lenovo-ideapad-slim-5-16irl8-82xf002dus-295585.jpg HTTP/1.1" 304 -
+2026-11-05 22:02:04,502 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:04] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 22:02:04,528 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:04] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:02:08,009 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:08] "GET /products/3 HTTP/1.1" 200 -
+2026-11-05 22:02:08,030 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:08] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:02:08,031 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:08] "GET /static/uploads/fc98da2a3adc4f2fa70ddd8a34182457_rich1_1_71901.jpg HTTP/1.1" 200 -
+2026-11-05 22:02:11,127 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:11] "POST /products/delete/3 HTTP/1.1" 302 -
+2026-11-05 22:02:11,134 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:11] "GET /products/ HTTP/1.1" 200 -
+2026-11-05 22:02:11,154 - INFO - 127.0.0.1 - - [05/Nov/2026 22:02:11] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:04:54,182 - INFO - 127.0.0.1 - - [05/Nov/2026 22:04:54] "GET /contacts HTTP/1.1" 200 -
+2026-11-05 22:04:54,200 - INFO - 127.0.0.1 - - [05/Nov/2026 22:04:54] "GET /static/css/styles.css HTTP/1.1" 404 -
+2026-11-05 22:05:36,465 - INFO - Контактна форма: Name=Андрій Дашковський, Email=andrii.dashkovskyi.24@pnu.edu.ua, Phone=+380995567894, Subject=Python, Message=Test Message
+2026-11-05 22:05:36,466 - INFO - 127.0.0.1 - - [05/Nov/2026 22:05:36] "POST /contacts HTTP/1.1" 302 -
+2026-11-05 22:05:36,474 - INFO - 127.0.0.1 - - [05/Nov/2026 22:05:36] "GET /contacts HTTP/1.1" 200 -
+2026-11-05 22:05:36,495 - INFO - 127.0.0.1 - - [05/Nov/2026 22:05:36] "GET /static/css/styles.css HTTP/1.1" 404 -
