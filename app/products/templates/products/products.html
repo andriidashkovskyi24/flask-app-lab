@@ -9,8 +9,9 @@
         <li>
             <!-- Використовуємо url_for з назвою блюпринта та посиланням на функцію product_detail -->
             <a href="{{ url_for('products.product_detail', product_id=product.id) }}">
+                
                 <strong>{{ product.name }}</strong>
-            </a> — {{ product.price }} $
+            </a> — {{ product.price }} ₴
         </li>
     {% endfor %}
 </ul>

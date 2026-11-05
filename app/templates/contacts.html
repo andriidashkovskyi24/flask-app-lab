@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% from "_render_field.html" import render_field %}
 
 {% block content %}
 <h1 class="mb-4">Контакти</h1>
@@ -20,20 +21,28 @@
     <div class="col-md-7">
         <div class="card p-4 shadow-sm">
             <h3>Надіслати повідомлення</h3>
-            <form action="#" method="post" onsubmit="event.preventDefault(); alert('Повідомлення надіслано!');">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Ваше ім'я</label>
-                    <input type="text" class="form-control" id="name" placeholder="Введіть ім'я" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Ваш Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Повідомлення</label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="Ваше повідомлення..." required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Надіслати</button>
+
+            <!-- Вивід flash-повідомлень з категоріями -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }} mt-3" role="alert">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <form method="POST" class="mt-3">
+                {{ form.hidden_tag() }}
+                
+                {{ render_field(form.name) }}
+                {{ render_field(form.email) }}
+                {{ render_field(form.phone) }}
+                {{ render_field(form.subject) }}
+                {{ render_field(form.message) }}
+                
+                <button type="submit" class="btn btn-primary mt-3">Send Message</button>
             </form>
         </div>
     </div>

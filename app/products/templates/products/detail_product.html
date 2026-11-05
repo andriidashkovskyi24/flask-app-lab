@@ -1,15 +1,26 @@
-{% extends 'base.html' %}
-
-{% block title %}{{ product.name }}{% endblock %}
+{% extends "base.html" %}
 
 {% block content %}
-{% if product %}
-    <h2>{{ product.name }}</h2>
-    <p><strong>Ціна:</strong> {{ product.price }} $</p>
-    <p><strong>Опис:</strong> {{ product.content }}</p>
-    <br>
-    <a href="{{ url_for('products.all_products') }}">← Повернутися до списку товарів</a>
-{% else %}
-    <h2>Товар не знайдено</h2>
-{% endif %}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            {% if product.image %}
+                <img src="{{ url_for('static', filename='uploads/' + product.image) }}" class="img-fluid rounded shadow" alt="{{ product.name }}">
+            {% endif %}
+        </div>
+        <div class="col-md-6">
+            <h2>{{ product.name }}</h2>
+            <p class="text-muted mt-3">{{ product.description }}</p>
+            <h4 class="text-success fw-bold">Ціна: ₴{{ "%.2f"|format(product.price) }}</h4>
+            
+            <div class="mt-4">
+                <a href="{{ url_for('products.products_list') }}" class="btn btn-outline-secondary">← Повернутися до списку товарів</a>
+                <a href="{{ url_for('products.product_edit', product_id=product.id) }}" class="btn btn-warning">Редагувати</a>
+                <form action="{{ url_for('products.product_delete', product_id=product.id) }}" method="POST" class="d-inline-block ms-2">
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('Ви впевнені, що хочете видалити цей товар?');">Видалити товар</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
